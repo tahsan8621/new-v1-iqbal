@@ -1,0 +1,35 @@
+.header {
+  position: sticky;
+  top: 0;
+}
+.inputContainer {
+  width: 100%;
+  input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0);
+    margin: 0 5px;
+  }
+}
+.logoContainer {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  img {
+    object-fit: cover;
+  }
+}
+.search {
+  position: relative;
+  .searchImage {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+  }
+  .focusImage {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+}

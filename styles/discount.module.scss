@@ -1,0 +1,22 @@
+.container {
+  padding-bottom: 25px;
+  border-bottom: 5px solid rgb(245 244 244);
+  .p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+  .image {
+    background-color: rgb(245 244 244);
+    img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+  .image_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    width: 100%;
+  }
+}
